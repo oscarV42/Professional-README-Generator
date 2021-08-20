@@ -16,9 +16,10 @@ function renderLicenseLink(license) {}
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if(license !== ""){
-    return `         ## License
+    return `
+## License
 
-    This project is licensed under the ${license} license`
+This project is licensed under the ${license} license`
   }else{
     return;
   }
@@ -28,55 +29,56 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   licenseSection = renderLicenseSection(data.license);
   licenseBadge = renderLicenseBadge(data.license);
-  return `# ${data.title}
-          ${licenseBadge}
+  return `
+# ${data.title}
+${licenseBadge}
 
-          ## Description
+## Description
 
-          ${data.description}
+${data.description}
 
-          ## Table of Contents
+## Table of Contents
 
-          * [installation](#installation)
+* [installation](#installation)
           
-          * [Usage](#usage)
+* [Usage](#usage)
 
-          * [License](#license)
+* [License](#license)
 
-          * [Contributing](#contributing)
+* [Contributing](#contributing)
 
-          * [Tests](#tests)
+* [Tests](#tests)
 
-          * [Questions](#questions)
+* [Questions](#questions)
 
-          ## Installation
+## Installation
 
-          To install necessary dependencies, run the following command:
+To install necessary dependencies, run the following command:
           
-          ---
-          ${data.install}
-          ---
+---
+${data.install}
+---
 
-          ## Usage
+## Usage
 
-          ${data.usage}
+${data.user_info}
 
-          ${licenseSection}
+${licenseSection}
 
-          ## Contributing
+## Contributing
 
-          ${data.contributing}
+${data.contribution}
 
-          ## Tests
+## Tests
 
-          ---
-          ${data.test}
-          ---
+---
+${data.test}
+---
 
-          ## Questions
+## Questions
 
-          If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at 
-          [${data.github}](https://github.com/${data.github}/).
+If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at 
+[${data.github}](https://github.com/${data.github}/).
 `;
 }
 
