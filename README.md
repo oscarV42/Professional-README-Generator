@@ -1,6 +1,6 @@
-
 # Professional README Generator
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+
+![GitHub license](https://img.shields.io/badge/license-MIT-yellow.svg)
 
 ## Description
 
@@ -8,30 +8,28 @@ When creating an open source project on GitHub, it’s important to have a high-
 
 ## Table of Contents
 
-* [installation](#installation)
-          
-* [Usage](#usage)
+- [installation](#installation)
+- [Usage](#usage)
 
-* [License](#license)
+- [License](#license)
 
-* [Contributing](#contributing)
+- [Contributing](#contributing)
 
-* [Tests](#tests)
+- [Tests](#tests)
 
-* [Questions](#questions)
+- [Questions](#questions)
 
 ## Installation
 
 To install necessary dependencies, run the following command:
-          
+
 ---
-npm i
----
+
+## npm i
 
 ## Usage
 
 Please reference description of the repo
-
 
 ## License
 
@@ -44,10 +42,10 @@ If interested, best way to contribute is through issues
 ## Tests
 
 ---
-npm test
----
+
+## npm test
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at oscar.a.vizcaino@icloud.com. You can find more of my work at 
+If you have any questions about the repo, open an issue or contact me directly at oscar.a.vizcaino@icloud.com. You can find more of my work at
 [oscarV42](https://github.com/oscarV42/).
