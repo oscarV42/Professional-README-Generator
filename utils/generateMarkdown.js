@@ -62,7 +62,7 @@ ${data.description}
 To install necessary dependencies, run the following command:
           
 ---
-${data.install}
+    ${data.install}
 ---
 
 ## Usage
