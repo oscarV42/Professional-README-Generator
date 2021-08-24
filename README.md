@@ -33,7 +33,7 @@ To install necessary dependencies, run the following command:
 
 Please reference description of the repo and the video provided below
 
-![Demonstration](utils\images\READMEGEN.gif / GIF)
+![Demonstration](utils\images\READMEGEN.gif)
 
 ## License
 
