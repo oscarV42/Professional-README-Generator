@@ -67,7 +67,7 @@ function init() {
     .prompt(questions)
     .then((answers) => {
         const readmePge = generateMarkdown(answers);
-        writeToFile('README.md', readmePge);
+        writeToFile('README2.md', readmePge);
     });
 }
 
